@@ -49,7 +49,7 @@ const Index = () => {
               500,
             ]}
             wrapper="span"
-            speed={50}
+            speed={100}
             className="text-primary"
             repeat={Infinity}
           />
@@ -59,7 +59,7 @@ const Index = () => {
         </p>
         <div className="flex gap-4">
           <Button asChild>
-            <a href="files/arthvala-resume.pdf" download>
+            <a href=f"files/arthvala-resume.pdf" download>
               Download Resume
             </a>
           </Button>
