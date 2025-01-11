@@ -88,7 +88,7 @@ const Index = () => {
           </div>
           <div className="relative">
             <Avatar className="h-64 w-64 animate-float">
-              <AvatarImage src="public/Profile.png" alt="Arth Vala" />
+              <AvatarImage src="public/Profile.svg" alt="Arth Vala" />
               <AvatarFallback>AV</AvatarFallback>
             </Avatar>
             <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/20 to-transparent blur-2xl" />
