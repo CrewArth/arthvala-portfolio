@@ -3,6 +3,7 @@ import { Blob } from "@/components/Blob";
 import { ProjectCard } from "@/components/ProjectCard";
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail } from "lucide-react";
+import { TypeAnimation } from 'react-type-animation';
 
 const Index = () => {
   const projects = [
@@ -36,7 +37,19 @@ const Index = () => {
       {/* Hero Section */}
       <section className="container flex min-h-screen flex-col items-center justify-center gap-4 text-center">
         <h1 className="text-4xl font-bold sm:text-6xl">
-          Hi, I'm <span className="text-primary">Arth Vala</span>
+          Hi, I'm{" "}
+          <TypeAnimation
+            sequence={[
+              "Arth Vala",
+              1000,
+              "",
+              500,
+            ]}
+            wrapper="span"
+            speed={50}
+            className="text-primary"
+            repeat={Infinity}
+          />
         </h1>
         <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
           AI & Computer Vision Enthusiast specializing in Deep Learning & Machine Learning.
