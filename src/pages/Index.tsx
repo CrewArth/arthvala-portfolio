@@ -8,22 +8,22 @@ const Index = () => {
   const projects = [
     {
       title: "ShapeShift.AI",
-      description: "AI-powered image manipulation and enhancement platform.",
-      technologies: ["Python", "TensorFlow", "Computer Vision", "React"],
+      description: "Transforms Text & 2D Image into 3D Models.",
+      technologies: ["NextJS", "ReactJS", "NodeJS", "MongoDB"],
     },
     {
       title: "ClassiVision",
-      description: "Advanced image classification system using deep learning.",
+      description: "Web Tool to Train CNN Model with ease.",
       technologies: ["PyTorch", "CNN", "Machine Learning", "FastAPI"],
     },
     {
       title: "ACP.AI",
-      description: "Automated content processing using artificial intelligence.",
+      description: "AI Platform to generate Text, Image & Videos using AI.",
       technologies: ["NLP", "Computer Vision", "AWS", "Django"],
     },
     {
       title: "ACDShopping",
-      description: "E-commerce platform with AI-powered recommendations.",
+      description: "E-commerce platform.",
       technologies: ["React", "Node.js", "Machine Learning", "MongoDB"],
     },
   ];
@@ -36,14 +36,14 @@ const Index = () => {
       {/* Hero Section */}
       <section className="container flex min-h-screen flex-col items-center justify-center gap-4 text-center">
         <h1 className="text-4xl font-bold sm:text-6xl">
-          Hi, I'm <span className="text-primary">Your Name</span>
+          Hi, I'm <span className="text-primary">Arth Vala</span>
         </h1>
         <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-          AI & Machine Learning Engineer specializing in Computer Vision and Deep Learning
+          AI & Computer Vision Enthusiast specializing in Deep Learning & Machine Learning.
         </p>
         <div className="flex gap-4">
           <Button asChild>
-            <a href="/resume.pdf" download>
+            <a href="files/arthvala-resume.pdf" download>
               Download Resume
             </a>
           </Button>
@@ -73,7 +73,7 @@ const Index = () => {
             "Deep Learning",
             "Python",
             "TensorFlow",
-            "PyTorch",
+            "NLP",
             "OpenCV",
             "React",
             "Node.js",
@@ -93,17 +93,17 @@ const Index = () => {
         <h2 className="mb-12 text-center text-3xl font-bold">Get in Touch</h2>
         <div className="flex justify-center gap-4">
           <Button variant="outline" size="icon" asChild>
-            <a href="mailto:your.email@example.com">
+            <a href="mailto:arthvala@gmail.com">
               <Mail className="h-4 w-4" />
             </a>
           </Button>
           <Button variant="outline" size="icon" asChild>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+            <a href="https://linkedin.com/in/arthvala" target="_blank" rel="noopener noreferrer">
               <Linkedin className="h-4 w-4" />
             </a>
           </Button>
           <Button variant="outline" size="icon" asChild>
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/CrewArth" target="_blank" rel="noopener noreferrer">
               <Github className="h-4 w-4" />
             </a>
           </Button>
