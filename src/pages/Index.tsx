@@ -12,11 +12,13 @@ const Index = () => {
       title: "ShapeShift.AI",
       description: "Transforms Text & 2D Image into 3D Models.",
       technologies: ["NextJS", "ReactJS", "NodeJS", "MongoDB"],
+      deployedUrl: "https://shapeshiftai.netlify.app/",
     },
     {
       title: "ClassiVision",
       description: "Web Tool to Train CNN Model with ease.",
       technologies: ["PyTorch", "CNN", "Machine Learning", "FastAPI"],
+      deployedUrl: "https://classivision.streamlit.app/",
     },
     {
       title: "ACP.AI",
