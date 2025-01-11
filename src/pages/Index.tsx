@@ -109,29 +109,30 @@ const Index = () => {
       {/* Skills Section */}
       <section className="container py-24" id="skills">
         <h2 className="mb-12 text-center text-3xl font-bold">Technical Skills</h2>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {[
-            "Computer Vision",
-            "Machine Learning",
-            "Deep Learning",
-            "Python",
-            "TensorFlow",
-            "NLP",
-            "OpenCV",
-            "React",
-            "Node.js",
-          ].map((skill) => (
-            <div
-              key={skill}
-              className="flex items-center justify-center rounded-lg bg-card p-4 text-card-foreground shadow-sm transition-all hover:shadow-md"
-            >
-              {skill}
-            </div>
-          ))}
+        <div className="rounded-lg border border-border bg-card p-6 shadow-sm">
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {[
+              "Computer Vision",
+              "Machine Learning",
+              "Deep Learning",
+              "Python",
+              "TensorFlow",
+              "NLP",
+              "OpenCV",
+              "React",
+              "Node.js",
+            ].map((skill) => (
+              <div
+                key={skill}
+                className="flex items-center justify-center rounded-lg bg-accent/50 p-4 text-accent-foreground shadow-sm transition-all hover:shadow-md"
+              >
+                {skill}
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* Contact Section */}
       <section className="container py-24" id="contact">
         <h2 className="mb-12 text-center text-3xl font-bold">Get in Touch</h2>
         <div className="flex justify-center gap-4">
