@@ -4,6 +4,7 @@ import { ProjectCard } from "@/components/ProjectCard";
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail } from "lucide-react";
 import { TypeAnimation } from 'react-type-animation';
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const Index = () => {
   const projects = [
@@ -63,6 +64,33 @@ const Index = () => {
           <Button variant="outline" asChild>
             <a href="#contact">Contact Me</a>
           </Button>
+        </div>
+      </section>
+
+      {/* About Me Section */}
+      <section className="container py-24" id="about">
+        <h2 className="mb-12 text-center text-3xl font-bold">About Me</h2>
+        <div className="flex flex-col-reverse items-center gap-8 md:flex-row md:justify-between">
+          <div className="max-w-xl space-y-4">
+            <p className="text-lg leading-relaxed text-muted-foreground">
+              My name is Arth Vala, and I am a final-year student at Parul University, 
+              pursuing an Integrated MCA with a specialization in Artificial Intelligence.
+              Set to graduate in 2025, I am deeply passionate about advancing technologies 
+              in Artificial Intelligence, Computer Vision, Deep Learning, and Machine Learning.
+            </p>
+            <p className="text-lg leading-relaxed text-muted-foreground">
+              I'm currently focused on building AI-powered applications, 
+              contributing to open-source projects, and mentoring aspiring developers. 
+              Feel free to connect with me on my journey!
+            </p>
+          </div>
+          <div className="relative">
+            <Avatar className="h-64 w-64 animate-float">
+              <AvatarImage src="/placeholder.svg" alt="Arth Vala" />
+              <AvatarFallback>AV</AvatarFallback>
+            </Avatar>
+            <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/20 to-transparent blur-2xl" />
+          </div>
         </div>
       </section>
 
